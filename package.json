@@ -1,0 +1,38 @@
+{
+  "name": "@awesome-os/godot",
+  "version": "0.1.0",
+  "description": "Rolling-latest MIT Godot 4 hydrated from awesome-os/b8g-ghost cas-v1 with a ~118 KB 5-target (Win64, Linux x64/ARM64, macOS ARM64, wasm32-wasi) Lumi Hydration Splash launcher (Keep-Last-5)",
+  "type": "module",
+  "main": "./src/index.mts",
+  "module": "./src/index.mts",
+  "types": "./src/index.mts",
+  "bin": {
+    "godot": "./src/cli.mts"
+  },
+  "exports": {
+    ".": "./src/index.mts",
+    "./hydrate": "./src/hydrate.mts",
+    "./cli": "./src/cli.mts"
+  },
+  "scripts": {
+    "test": "node --test test/godot-cas.test.mts"
+  },
+  "keywords": [
+    "godot",
+    "godot4",
+    "game-engine",
+    "b8g-ghost",
+    "awesome-os",
+    "cas",
+    "wasi",
+    "lumi-splash"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/awesome-os/godot.git"
+  },
+  "engines": {
+    "node": ">=22.18.0"
+  }
+}

@@ -1,0 +1,6 @@
+dist/
+node_modules/
+.b8g/
+*.exe
+*.wasm
+*.tmp
