@@ -1,3 +1,5 @@
+> [!NOTE] Consolidated into https://github.com/awesome-os/devtools
+
 # `@awesome-os/godot`
 
 Rolling-latest MIT **Godot 4** hydrated on demand from [`awesome-os/b8g-ghost`](https://github.com/awesome-os/b8g-ghost) (`cas-v1`) with a `~118 KB` native 5-target (Win64, Linux x64/ARM64, macOS ARM64, `wasm32-wasi`) C11 **Lumi Hydration Splash** launcher (Keep-Last-5, zero installer).
